@@ -1,0 +1,122 @@
+body {
+  background-color: #676767;
+  margin: 169px;
+  text-align: justify;
+  font-family: ubuntu;
+}
+
+.div_head {
+  display: table;
+  padding-left: 33px;
+}
+
+/* Style du titre en haut de page */
+header h1 {
+  text-align: center;
+}
+
+/* Style du menu */
+.ribbon {
+    display: flex;
+}
+
+.ribbon:after, .ribbon:before {
+  margin-top:0.5em;
+  content: "";
+  float:left;
+  border:1.5em solid #fff;
+}
+
+.ribbon:after {
+  border-right-color:transparent;
+}
+
+.ribbon:before {
+  border-left-color:transparent;
+}
+
+.ribbon a:link, .ribbon a:visited {
+  color:#000;
+  text-decoration:none;
+  float:left;
+  height:3.5em;
+  overflow:hidden;
+}
+.ribbon span {
+  background:#fff;
+  display:inline-block;
+  line-height:3em;
+  padding:0 1em;
+  margin-top:0.5em;
+  position:relative;
+  transition: background-color 0.2s, margin-top 0.2s;
+}
+
+.ribbon a:hover span {
+  background:#FFD204;
+  margin-top:0;
+}
+
+.ribbon span:before {
+  content: "";
+  position:absolute;
+  top:3em;
+  left:0;
+  border-right:0.5em solid #9B8651;
+  border-bottom:0.5em solid #fff;
+}
+
+.ribbon span:after {
+  content: "";
+  position:absolute;
+  top:3em;
+  right:0;
+  border-left:0.5em solid #9B8651;
+  border-bottom:0.5em solid #fff;
+}
+/* Fin du style du menu */
+
+/* Style des titres h3 */
+h3 {
+  background: url("icon.png") left;
+  line-height: 50px;
+  padding: 35px 150px 43px;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+}
+
+.text_center {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+hr {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px 0px #000000 inset;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.div_plugins {
+  display: flex;
+}
+
+.text_plugins {
+  padding-right: 30px;
+}
+
+.img_personnaliser {
+  display: inline-block;
+}
+
+footer {
+  border-style: outset;
+  border-width: 1px;
+  text-align: center;
+  font-size: small;
+  margin-top: 100px;
+}

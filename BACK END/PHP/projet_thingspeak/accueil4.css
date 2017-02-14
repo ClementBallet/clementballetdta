@@ -1,0 +1,247 @@
+body{
+ background-image: url("http://cchunterbooks.com/blog/wp-content/uploads/2016/06/Beach.jpg");
+  background-repeat:no-repeat ;
+}
+
+
+header{
+
+width: 1355px;
+height: 108px;
+/*! border:1px solid red; */
+border-radius: 5px;
+position: absolute;
+margin-left: -4px;
+margin-top: 140px;
+  text-align: center;
+  /*!  */
+}
+
+p{
+  color: #E5FC05;
+  margin-top: -121px;
+  position: absolute;
+  margin-left: 457px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+nav h5{
+  display: inline-block;
+  margin-left: -316px;
+  margin-top: 47px;
+  padding-right: 63px;
+  color: #f8ec06;
+  text-align: center;
+  width: 39px;
+  height: 29px;
+  line-height: 26px;
+  padding-left: 45px;
+  z-index: 1;
+  position: absolute;
+}
+
+
+
+
+#tableau{
+  position: absolute;
+  margin-left: -97px;
+  color: #eefc06;
+}
+
+#graph{
+  position: absolute;
+  margin-left: 112px;
+}
+
+
+
+
+footer{
+  background-color: black;
+  color:white;
+  width: 1336px;
+  height: 100px;
+  margin-top: 837px;
+  border-radius: 10px;
+  z-index: 1;
+  position: absolute;
+  position: absolute;
+}
+
+footer h5{
+
+  margin-left: 560px;
+  padding-top: -5px;
+  position: absolute;
+}
+
+footer p{
+  display: inline-block;
+  color: white;
+
+  margin-left: 51px;
+  margin-top: 57px;
+  padding-left: 56px;
+}
+
+#clem{
+  margin-left: 1073px;
+}
+
+#pat{
+  margin-left: 799px;
+}
+
+#jim{
+  margin-left: 543px;
+}
+
+#val{
+  margin-left: 298px;
+}
+
+.contact{
+  margin-top: 211px;
+  position: absolute;
+}
+
+.contact h1{
+
+  position: absolute;
+  /*! z-index: 1; */
+  margin-top: 383px;
+  margin-left: 577px;
+  color: white;
+}
+
+.contact p{
+
+  position: absolute;
+  z-index: 1;
+  margin-top: 474px;
+  display: inline-block;
+  margin-left: 207px;
+  color: white;
+}
+
+header h1{
+
+  position: absolute;
+  margin-left: 477px;
+  margin-top: -79px;
+  color: #FCFCFC;
+}
+
+
+#accueil h1{
+
+  position: absolute;
+  margin-top: 379px;
+  margin-left: 579px;
+}
+
+
+#test{
+background-image: url("https://cdn0.iconfinder.com/data/icons/vacation/256/beach_chair.png");
+  margin-left: 1040px;
+  margin-top: 29px;
+  width: 260px;
+  height: 251px;
+  padding: 0;
+background-repeat: no-repeat;
+position: absolute;
+}
+
+#test2{
+background-image: url("https://cdn2.iconfinder.com/data/icons/geest-travel-kit/128/travel_journey-12-256.png");
+  margin-left: 60px;
+  margin-top: 16px;
+  width: 260px;
+  height: 251px;
+  padding: 0;
+background-repeat: no-repeat;
+position: absolute;
+}
+
+#test3{
+background-image: url("https://cdn3.iconfinder.com/data/icons/meteocons/512/sun-symbol-256.png");
+  margin-left: 305px;
+  margin-top: 75px;
+  width: 263px;
+  height: 251px;
+  padding: 0;
+background-repeat: no-repeat;
+position: absolute;
+}
+
+#test4{
+background-image: url("https://cdn3.iconfinder.com/data/icons/meteocons/512/sun-symbol-256.png");
+  margin-left: 522px;
+  margin-top: 75px;
+  width: 235px;
+  height: 251px;
+  padding: 0;
+background-repeat: no-repeat;
+position: absolute;
+}
+
+#test5{
+background-image: url("https://cdn3.iconfinder.com/data/icons/meteocons/512/sun-symbol-256.png");
+  margin-left: 741px;
+  margin-top: 75px;
+  width: 269px;
+  height: 265px;
+  padding: 0;
+background-repeat: no-repeat;
+position: absolute;
+}
+
+
+
+#test7{
+background-image: url("https://cdn3.iconfinder.com/data/icons/capsocial-round/500/facebook-128.png");
+  margin-left: 227px;
+  margin-top: 459px;
+  width: 132px;
+  height: 130px;
+  padding: 0;
+background-repeat: no-repeat;
+position: absolute;
+}
+
+#test8{
+background-image: url("https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-128.png");
+  margin-left: 940px;
+  margin-top: 422px;
+  width: 128px;
+  height: 137px;
+  padding: 0;
+background-repeat: no-repeat;
+position: absolute;
+}
+
+#test9{
+background-image: url("https://cdn3.iconfinder.com/data/icons/social-media-logos-flat-colorful-1/2048/5362_-_Slack-128.png");
+  margin-left: 577px;
+  margin-top: 380px;
+  width: 129px;
+  height: 139px;
+  padding: 0;
+background-repeat: no-repeat;
+position: absolute;
+}
+
+
+
+#accueil p{
+  color: black;
+  display: inline-block;
+  position: absolute;
+  margin-left: 217px;
+  margin-top: 450px;
+  width: 763px;
+  padding-left: 51px;
+  text-align: center;
+}

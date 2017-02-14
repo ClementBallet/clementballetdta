@@ -1,0 +1,285 @@
+body{
+  /*! background-image: url("http://www.pptgrounds.com/wp-content/uploads/2013/12/White-Crack-Effect-Backgrounds.jpg"); */
+  background-repeat:no-repeat ;
+}
+
+
+header{
+
+width: 1355px;
+height: 108px;
+/*! border:1px solid red; */
+border-radius: 5px;
+position: absolute;
+margin-left: -4px;
+margin-top: 140px;
+  text-align: center;
+  /*!  */
+}
+
+p{
+  color: #f9f9f9;
+  margin-top: -121px;
+  position: absolute;
+  margin-left: 487px;
+}
+
+nav h5{
+  display: inline-block;
+  margin-left: -316px;
+  margin-top: 47px;
+  padding-right: 63px;
+  color: #ec2020;
+  text-align: center;
+  width: 39px;
+  height: 29px;
+  line-height: 26px;
+  padding-left: 45px;
+  z-index: 1;
+  position: absolute;
+}
+
+
+
+
+#tableau{
+  position: absolute;
+  margin-left: -97px;
+  color: #e72727;
+}
+
+#graph{
+  position: absolute;
+  margin-left: 112px;
+}
+
+
+
+
+footer{
+  background-color: black;
+  color:white;
+  width: 1336px;
+  height: 100px;
+  margin-top: 837px;
+  border-radius: 10px;
+  z-index: 1;
+  position: absolute;
+  position: absolute;
+}
+
+footer h5{
+
+  margin-left: 560px;
+  padding-top: -5px;
+  position: absolute;
+}
+
+footer p{
+  display: inline-block;
+  color: white;
+
+  margin-left: 51px;
+  margin-top: 57px;
+  padding-left: 56px;
+}
+
+#clem{
+  margin-left: 1073px;
+}
+
+#pat{
+  margin-left: 799px;
+}
+
+#jim{
+  margin-left: 543px;
+}
+
+#val{
+  margin-left: 298px;
+}
+
+.contact{
+  margin-top: 211px;
+  position: absolute;
+}
+
+.contact h1{
+
+  position: absolute;
+  /*! z-index: 1; */
+  margin-top: 383px;
+  margin-left: 577px;
+  color: white;
+}
+
+.contact p{
+
+  position: absolute;
+  z-index: 1;
+  margin-top: 474px;
+  display: inline-block;
+  margin-left: 207px;
+  color: white;
+}
+
+header h1{
+
+  position: absolute;
+  margin-left: 477px;
+  margin-top: -79px;
+  color: white;
+}
+
+
+#accueil h1{
+
+  position: absolute;
+  margin-top: 379px;
+  margin-left: 579px;
+}
+
+
+#test{
+background-image: url("https://cdn2.iconfinder.com/data/icons/weather-119/512/weather-6-256.png");
+  margin-left: 988px;
+  margin-top: -2px;
+  width: 260px;
+  height: 251px;
+  padding: 0;
+background-repeat: no-repeat;
+position: absolute;
+}
+
+#test2{
+background-image: url("https://cdn2.iconfinder.com/data/icons/thesquid-ink-40-free-flat-icon-pack/64/snowman-256.png");
+  margin-left: 60px;
+  margin-top: 16px;
+  width: 260px;
+  height: 251px;
+  padding: 0;
+background-repeat: no-repeat;
+position: absolute;
+}
+
+#test3{
+background-image: url("https://cdn4.iconfinder.com/data/icons/free-line-christmas-icons/24/Santa_Hat-128.png");
+  margin-left: 372px;
+  margin-top: 141px;
+  width: 160px;
+  height: 251px;
+  padding: 0;
+background-repeat: no-repeat;
+position: absolute;
+}
+
+#test4{
+background-image: url("https://cdn0.iconfinder.com/data/icons/christmas-free-icon-pack/128/decoration-256.png");
+  margin-left: 522px;
+  margin-top: 85px;
+  width: 204px;
+  height: 251px;
+  padding: 0;
+background-repeat: no-repeat;
+position: absolute;
+}
+
+#test5{
+background-image: url("https://cdn2.iconfinder.com/data/icons/camping-nature/24/camping-nature-11-256.png");
+  margin-left: 738px;
+  margin-top: 33px;
+  width: 269px;
+  height: 265px;
+  padding: 0;
+background-repeat: no-repeat;
+position: absolute;
+}
+
+
+
+#test7{
+background-image: url("https://cdn4.iconfinder.com/data/icons/social-media-christmas-theme/128/facebook.png");
+  margin-left: 227px;
+  margin-top: 459px;
+  width: 132px;
+  height: 130px;
+  padding: 0;
+background-repeat: no-repeat;
+position: absolute;
+}
+
+#test8{
+background-image: url("https://cdn4.iconfinder.com/data/icons/social-media-christmas-theme/128/Twitter.png");
+  margin-left: 940px;
+  margin-top: 422px;
+  width: 128px;
+  height: 137px;
+  padding: 0;
+background-repeat: no-repeat;
+position: absolute;
+}
+
+#test9{
+background-image: url("https://cdn3.iconfinder.com/data/icons/social-media-logos-flat-colorful-1/2048/5362_-_Slack-128.png");
+  margin-left: 577px;
+  margin-top: 380px;
+  width: 129px;
+  height: 139px;
+  padding: 0;
+background-repeat: no-repeat;
+position: absolute;
+}
+
+
+
+#accueil p{
+  color: black;
+  display: inline-block;
+  position: absolute;
+  margin-left: 217px;
+  margin-top: 450px;
+  width: 763px;
+  padding-left: 51px;
+  text-align: center;
+}
+
+
+/*neige*/
+
+body { background-color:#CCC; }
+#snow{
+	background: none;
+	font-family: Androgyne;
+	background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index:1;
+	-webkit-animation: snow 10s linear infinite;
+	-moz-animation: snow 10s linear infinite;
+	-ms-animation: snow 10s linear infinite;
+	animation: snow 10s linear infinite;
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}

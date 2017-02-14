@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="tuto_easesport.css">
+    <meta charset="utf-8">
+    <title>Tutoriel du wordpress EasE-Sport</title>
+  </head>
+  <body>
+    <!--Div principal-->
+    <div class="">
+      <!--Div du head-->
+      <div class="div_head">
+        <!--Div du titre de la page-->
+        <div>
+          <header>
+            <h1>Tutoriel du Wordpress EasE-Sport</h1>
+          </header>
+        </div>
+        <!--Div du menu de navigation-->
+        <div class="ribbon">
+          <nav>
+            <a href='#intro'><span>Introduction</span></a>
+            <a href='#part1'><span>Nom</span></a>
+            <a href='#part2'><span>Thème</span></a>
+            <a href='#part3'><span>Plugins</span></a>
+            <a href='#part4'><span>Couleur</span></a>
+            <a href='#part5'><span>Personnaliser</span></a>
+            <a href='#part6'><span>Menu</span></a>
+            <a href='#part7'><span>Configuration</span></a>
+            <a href='#part8'><span>Médias</span></a>
+          </nav>
+        </div>
+      </div>
+      <!--Div du main-->
+      <div class="">
+        <main>
+          <!--Header du main intégrant une introduction au sujet-->
+          <div class="">
+            <header>
+            <h3>Introduction</h3>
+            <p><a id="intro"/>
+              Dans ce tutoriel, je vais vous présenter comment j’ai créé un Wordpress sur le sujet imposé suivant :
+              une association organisatrice de tournoi d’e-sport souhaite mettre en place un blog pour annoncer ses événements,
+              partager avec ses adhérents mais aussi créer un espace d’échange de jeux et consoles entre particuliers.
+              <br><br>
+              Contraintes imposées :
+              <ul>
+                <li>une page d’accueil</li>
+                <li>une page contact</li>
+                <li>rédiger 3 articles pertinents</li>
+                <li>intégrer au moins un plugin adapté aux besoins de l’activité pro</li>
+                <li>sélectionner un template adapté à l’activité</li>
+                <li>un formulaire</li>
+                <li>un carrousel multimédia</li>
+              </ul>
+              <br><br>
+              <div class="text_center">Vous pouvez le visiter à l’adresse suivante :
+              <a href="http://164.132.194.216/site2/" target="_blank">http://164.132.194.216/site2/</a>
+              </div>
+              <br><br>
+              <div class="text_center">NIVEAU SUR WORDPRESS AU DEBUT DE LA CREATION : NOVICE
+              </div>
+              <br><br>
+            </p>
+            <img src="accueil_esport.png" alt="Image Wordpress EasE-Sport"/>
+            </header>
+          </div>
+          <!--Div paragraphe 1-->
+          <div class="">
+            <a id="part1"/>
+            <h3>1/ Trouver un nom</h3>
+            <p>
+              J’ai choisi le nom “EasE-Sport” pour mon wordpress, à la fois accrocheur et simple,
+              il convient parfaitement à l’univers du E-Sport.
+            </p>
+          </div>
+          <!--Div paragraphe 2-->
+          <div class="">
+            <a id="part2"/>
+            <h3>2/ Choisir un thème</h3>
+            <p>
+              Pour mon projet, j’ai choisi le thème “Graphene”
+              (<a href="https://fr.wordpress.org/themes/graphene/"
+              target="_blank">https://fr.wordpress.org/themes/graphene/</a>).
+              Il n’a pas un style vraiment particulier mais je recherchais justement un style simple, intuitif et pas trop chargé.
+              Il embarque donc une image d’en-tête (avec possibilité de rajouter le titre du blog),
+              une barre de menu, un slide avec les derniers articles et une zone latérale de widgets.
+              <br>
+              Pour l'installation, rien de plus simple : téléchargez le fichier zip contenant le thème désiré,
+              aller dans le dossier "wp-content" puis "themes" de votre fichier Wordpress et l'extraire ici.<br>
+              Vous n'avez plus qu'à l'activer dans le panneau de configuration de Wordpress.
+              <br>
+              <br>
+            </p>
+            <a href="https://fr.wordpress.org/themes/graphene/" target="_blank">
+              <img src="graphene.png" alt="Thème Graphene"/>
+            </a>
+          </div>
+          <!--Div paragraphe 3-->
+          <div class="">
+            <a id="part3"/>
+            <h3>3/ Choix des plugins</h3>
+            <p>
+              Pour l'installation des plugins c'est sensiblement la même manipulation que
+              pour les thèmes sauf le dossier de destination qui est "wp-content" puis "plugins".
+              Comme les thèmes, n'hésitez pas à parcourir la multitude de plugins qui s'offrent
+              à vous pour enrichir votre Wordpress (presque 50000) !
+              <br>
+            </p>
+            <img src="extensions.png" alt="Extensions" />
+            <br>
+            <hr>
+            <br>
+            <!--Div akismet-->
+            <h4>Akismet :</h4>
+            <div class="div_plugins">
+              <div class="text_plugins">
+                <p>
+                C’est une extension qui sert à protéger votre blog contre les spams principalement.
+                Il me semblait important de l’intégrer étant donné qu’un forum est intégré à EasE-Sport.
+                </p>
+              </div>
+              <div>
+                <a href="https://fr.wordpress.org/plugins/akismet/" target="_blank" title="Akismet">
+                  <img src="akismet.png" alt="Akismet" />
+                </a>
+              </div>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <!--Div wp database-->
+            <h4>WP Database Backup :</h4>
+            <div class="div_plugins">
+              <div class="text_plugins">
+                <p>
+                  La sauvegarde de donnée est très importante.
+                  Avec cette application vous pouvez programmer des backup de votre base de donnée à tous moment.
+                </p>
+              </div>
+              <div>
+                <a href="https://fr.wordpress.org/plugins/wp-db-backup/" target="_blank" title="WP Database Backup">
+                  <img src="wpbackup.png" alt="WP DB Backup" />
+                </a>
+              </div>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <!--Div bbPress-->
+            <h4>bbPress :</h4>
+            <div class="div_plugins">
+              <div class="text_plugins">
+                <p>
+                  C’est un forum assez bien noté par la communauté. Simple et léger sont ses qualités.
+                  L’une des mes contraintes était d’intégrer au blog un espace d’échange de jeux et consoles entre les membres.
+                  Il me semblait judicieux de l’intégrer dans un forum pour la possibilité de pouvoir répondre en direct à chaque annonce notamment.
+                </p>
+              </div>
+              <div>
+                <a href="https://fr.wordpress.org/plugins/bbpress/" target="_blank" title="bbPress">
+                  <img src="forum.png" alt="bbPress" />
+                </a>
+              </div>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <!--Div form maker-->
+            <h4>Form Maker :</h4>
+            <div class="div_plugins">
+              <div class="text_plugins">
+                <p>
+                  Permet de créer des formulaires de façons très intuitives.
+                  C’était l’une des consignes imposées, j’en ai ajouté un peu partout dans le blog et ai même créé une page “Sondages” dédié.
+                </p>
+              </div>
+              <div>
+                <a href="https://fr.wordpress.org/plugins/form-maker/" target="_blank" title="Form Maker">
+                  <img src="formulaire.png" alt="Form Maker" />
+                </a>
+              </div>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <!--Div events calendar-->
+            <h4>Events Calendar :</h4>
+            <div class="div_plugins">
+              <div class="text_plugins">
+                <p>
+                  Permet de partager les événements sous forme de calendrier.
+                </p>
+              </div>
+              <div>
+                <a href="https://fr.wordpress.org/plugins/the-events-calendar/" target="_blank" title="Events Calendar">
+                  <img src="calendar.png" alt="Events Calendar" />
+                </a>
+              </div>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <!--Div carousel-->
+            <h4>WonderPlugin Carousel :</h4>
+            <div class="div_plugins">
+              <div class="text_plugins">
+                <p>
+                  Une appli qui permet d'intégrer un carousel de média, autant photos que vidéo.
+                </p>
+              </div>
+              <div>
+                <a href="https://www.wonderplugin.com/wordpress-carousel/" target="_blank" title="WonderPlugin Carousel">
+                  <img src="carousel.png" alt="WonderPlugin Carousel" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <!--Div paragraphe 4-->
+          <div class="">
+            <a id="part4"/>
+            <h3>4/ Couleur dominante </h3>
+            <p>
+              Une des premières choses que j’ai paramétré est la couleur.
+              Je l’ai assortie à la couleur de l’image d’en-tête qui était bleu/noir.
+            </p>
+          </div>
+          <!--Div paragraphe 5-->
+          <div>
+            <a id="part5"/>
+              <h3>5/ Personnaliser :</h3>
+            <div class="div_plugins">
+              <div class="text_plugins">
+                <p>
+                  Nous allons nous attarder un peu sur le menu “Apparence” > “Personnaliser”.
+                  Parcourez ce menu et vous verrez que vous pouvez changer le titre de votre site,
+                  le slogan, différentes couleurs, l’image d’en-tête, l’image d’arrière-plan, ajouter des menus,
+                  des widgets, choisir ce que la page d’accueil affiche, définir les pages qui deviendront vos pages
+                  accueil et articles.
+                </p>
+              </div>
+              <div class="img_personnaliser">
+                <img src="personnaliser.png" alt="Menu personnaliser" />
+              </div>
+            </div>
+          </div>
+          <!--Div paragraphe 6-->
+          <div class="">
+            <a id="part6"/>
+            <h3>6/ Mise en place du menu</h3>
+            <div class="">
+              <p>
+                Mise en place du menu dans “Pages” > “Ajouter”
+                Dans “Attributs de la page” vous pouvez assigner un parent et un ordre à votre menu.
+                Pour ce projet, vous pouvez voir que j’ai créé 9 catégories dans mon menu et des sous-catégories dans certains.
+              </p>
+            </div>
+            <div class="img_personnaliser">
+              <img src="menu.png" alt="Menu" />
+            </div>
+          </div>
+          <!--Div paragraphe 7-->
+          <div class="">
+            <a id="part7"/>
+            <h3>7/ Configuration des extensions</h3>
+            <div class="div_plugins">
+              <div class="text_plugins">
+                <p>
+                  Ici 2 solutions, soit votre extension aura créé un menu dans le tableau de bord et
+                  vous pourrez y retrouver tous les paramétrages de celle-ci.
+                  Sinon, aller dans “Outils” ou “Réglages”, elles se cachent peut-être ici !
+                </p>
+              </div>
+              <div class="img_personnaliser">
+                <img src="menu_extension.png" alt="Menu extension" />
+              </div>
+            </div>
+          </div>
+          <!--Div paragraphe 8-->
+          <div class="">
+            <a id="part8"/>
+            <h3>8/ Ajouter des médias</h3>
+            <div class="div_plugins">
+              <div class="text_plugins">
+                <p>
+                  Pour ajouter des médias, faites “Médias” puis “Ajouter”.
+                </p>
+              </div>
+              <div>
+                <img src="media.png" alt="Médias" />
+              </div>
+            </div>
+          </div>
+          <!--Div du footer du main-->
+          <div class="">
+            <p>
+              Et voilà, vous avez les bases pour créer votre propre site sous Wordpress !
+              <br>
+              Retrouvez tous les liens principaux qui vous aiderons dans votre aventure :
+              <br>
+              <ul>
+                <li><a href="https://fr.wordpress.com/">https://fr.wordpress.com/</a></li>
+                <li><a href="https://fr.wordpress.org/">https://fr.wordpress.org/</a></li>
+                <li><a href="https://fr.wordpress.org/plugins/">https://fr.wordpress.org/plugins/</a></li>
+                <li><a href="https://wpformation.com/wordpress/tutos-tutoriels-wordpress/">https://wpformation.com/wordpress/tutos-tutoriels-wordpress/</a></li>
+              </ul>
+            </p>
+          </div>
+        </main>
+      </div>
+      <!--Div du footer-->
+      <div>
+        <footer>Fait par Clément Ballet Design Tech Académie</footer>
+      </div>
+    </div>
+  </body>
+</html>

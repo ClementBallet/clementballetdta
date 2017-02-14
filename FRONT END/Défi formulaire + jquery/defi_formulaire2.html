@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="defi_formulaire2.css" />
+    <meta charset="utf-8">
+    <title>Défi formulaire + jQuery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  </head>
+  <body>
+
+
+    <!--Div principal-->
+    <div class="div_princ">
+      <!--Div du main-->
+      <div class="">
+        <main>
+          <!--Div du header dans le main-->
+          <div class="">
+            <header>
+              <h3>Register</h3>
+            </header>
+          </div>
+          <!--Début du formulaire dans le main-->
+          <form name="form2" action="form.php" method="post">
+            <div class="">
+              <label for="">First name<br><input type="text" id="firstname" name="firstname" value="" class="champ" required></label>
+            </div>
+            <div class="">
+              <label for="">Last name<br><input type="text" id="lastname" name="lastname" value="" class="champ" required></label>
+            </div>
+            <div class="">
+              <label for="">Pseudo<br><input type="text" id="pseudo" name="pseudo" value="" class="champ" required></label>
+            </div>
+            <div class="">
+              <label for="">Email address<br><input type="email" id="email" name="email" value="" class="champ" required></label>
+            </div>
+            <div class="">
+              <label>Password<br><input type="password" id="mdp" name="mdp" value="" class="champ" required></label><br>
+              <label>Confirm password<br><input type="password" id="mdpconfirmation" name="confirmation" value="" class="champ" required></label>
+            </div>
+            <div class="">
+              <label><input type="checkbox" id="confirmation "name="" value="" class="champ" required>I accept the <a href="#">Terms & Conditions</a></label>
+            </div>
+            <div class="div_submit">
+              <div class="">
+                <input type="submit" id="submit" name="submit" value="Submit">
+              </div>
+              <div class="">
+                <input type="reset" id="reset" name="reset" value="Effacer le fomulaire">
+              </div>
+            </div>
+            <div id="erreur">
+              <p>Vous n'avez pas rempli correctement les champs du formulaire !</p>
+            </div>
+          </form>
+
+          <script type="text/javascript">
+          $(document).ready(function(){
+
+          var $firstname = $('#firstname')
+              $lastname = $('#lastname')
+              $pseudo = $('#pseudo'),
+              $mail = $('#email'),
+              $mdp = $('#mdp'),
+              $mdpconfirmation=('mdpconfirmation')
+              $confirmation = $('#confirmation'),
+              $submit = $('#submit'),
+              $reset = $('#reset'),
+              $erreur = $('#erreur'),
+              $champ = $('.champ');
+
+          $champ.keyup(function(){
+              if($(this).val().length < 3){         // si la chaîne de caractères est inférieure à 5
+                  $(this).css('background-color','red');                    // on rend le champ rouge
+               }
+               else{
+                   $(this).css('background-color','green');   // si tout est bon, on le rend vert
+               }
+          });
+
+          $confirmation.keyup(function(){
+              if($(this).val() != $mdp.val()){      // si la confirmation est différente du mot de passe
+                  $(this).css('background-color','red');                     // on rend le champ rouge
+              }
+              else{
+            $(this).css('background-color','green');                           // si tout est bon, on le rend vert
+              }
+          });
+
+          $submit.click(function(e){
+              e.preventDefault();                   // on annule la fonction par défaut du bouton d'envoi
+
+          // puis on lance la fonction de vérification sur tous les champs :
+              verifier($firstname);
+              verifier($lastname);
+              verifier($pseudo);
+              verifier($email);
+              verifier($mdp);
+              verifier($confirmation);
+          });
+
+          $reset.click(function(){
+              $champ.css('border','#ccc');                         // on remet le style des champs comme on l'avait défini dans le style CSS
+              }
+              $erreur.css('display', 'none');       // on prend soin de cacher le message d'erreur
+          });
+
+          function verifier(champ){
+              if(champ.val() == ""){                // si le champ est vide
+                $erreur.css('display', 'block');    // on affiche le message d'erreur
+                  champ.css('border','red');                       // on rend le champ rouge
+                }
+              }
+          }
+
+      });
+          </script>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>

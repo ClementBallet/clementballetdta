@@ -1,0 +1,19 @@
+.logo_small {
+  vertical-align: top;
+  padding-right: 7px;
+  padding-top: 4px;
+}
+
+.logo_small2 {
+  left: -39%;
+  top: 3px;
+  padding-left: 41px;
+}
+
+.logo-head {
+  opacity: 0.5;
+}
+
+.logo-head:hover {
+  opacity: 0.8;
+}

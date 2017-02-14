@@ -1,0 +1,102 @@
+.img_fond {
+  background-image: url(4238051-background.jpg);
+  background-repeat: round;
+}
+
+.div_principal {
+ margin-top: -21px;
+ margin-bottom: -15px;
+ margin-left: 150px;
+ margin-right: 150px;
+ font-family: 'source sans Pro', Tahoma, sans-serif;
+ text-align: justify;
+}
+
+/*CSS du div de gauche*/
+.left_section {
+  float: left;
+  background-color: cadetblue;
+  padding: 25px;
+  padding-bottom: 90px;
+  position: fixed;
+}
+
+.photo {
+  height: 250px;
+  padding: 38px;
+  border-radius: 100%;
+  margin-top: -40px;
+}
+
+.icon_contact {
+  height: 50px;
+  margin: 14px;
+}
+
+.div_icon_contact {
+  display: table-caption;
+}
+
+.contact {
+  margin-top: -332px;
+  padding-left: 77px;
+  padding-bottom: 53px;
+}
+
+#phone {
+  padding-top: 28px;
+}
+
+#email {
+  padding-top: 45px;
+}
+
+#car {
+  padding-top: 49px;
+}
+
+#travail_eqp::-moz-progress-bar {
+    display: ruby-base-container;
+    width: 270px;
+    height: 14px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+    -webkit-border-radius: 15px;
+    color: darkgrey;
+    background-color: cadetblue;
+}
+
+/*CSS du div de droite*/
+
+.right_section {
+  background-color: moccasin;
+}
+
+.bordure_titre {
+  border-left:10px solid cadetblue;
+  padding-left: 10px;
+  margin-left: 79px;
+}
+
+.marge {
+  margin-left: 5em;
+}
+
+.info {
+  margin-left: 474px;
+  margin-right: 116px;
+  padding-top: 95px;
+}
+
+.dates {
+  float: left;
+}
+
+.paragraphes {
+  padding-left: 400px;
+  padding-right: 20px;
+  padding-top: 83px;
+}
+
+.contenu {
+  padding: 20px;
+}

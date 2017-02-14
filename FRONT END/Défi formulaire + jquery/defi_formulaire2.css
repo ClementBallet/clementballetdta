@@ -1,0 +1,20 @@
+body {
+  background-color: #95979D;
+  padding-left: 537px;
+}
+
+.div_princ {
+  border: 2px black;
+  background: wheat;
+  display: inline-table;
+  text-align: center;
+  padding: 15px;
+}
+
+.div_submit {
+  display: inline-flex;
+}
+
+#erreur {
+  display : none
+}
