@@ -1,0 +1,15 @@
+* {
+  font-family: "jaf-facitweb","Helvetica Neue",Arial,sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+.logo-head {
+  opacity: 0.5;
+}
+
+.logo-head:hover {
+  opacity: 0.8;
+}
