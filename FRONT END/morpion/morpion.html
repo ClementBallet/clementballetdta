@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Jeu de Morpion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="tictactoe.png">
+    <link rel="stylesheet" href="morpion.css" media="screen" title="no title">
+  </head>
+  <body>
+    <h1><u>Jeu de Morpion</u></h1>
+    <p>
+      Règle : alignez 3 symboles de même forme dans n'importe quel sens pour gagner !
+    </p>
+    <form>
+      <fieldset>
+        <legend>Niveau de difficulté</legend>
+        <select id="level" name="Niveau de difficulté">
+          <option id="easy" value="Facile">Facile</option>
+          <option id="medium" value="Moyen">Moyen</option>
+          <option id="hard" value="Difficile">Difficile</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend>Choix du symbole</legend>
+        <select id="choix" name="Choix du symbole">
+          <option id="cross" value="option">Croix</option>
+          <option id="ring" value="option">Rond</option>
+        </select>
+      </fieldset>
+    </form>
+    <h5 id="valeur_niveau"></h5>
+    <table id="morpion-tableau">
+      <tr>
+        <td>
+          <p id="morpion-button1" onclick="morpion('#morpion-button1')"></p>
+        </td>
+        <td>
+          <p id="morpion-button2" onclick="morpion('#morpion-button2')"></p>
+        </td>
+        <td>
+          <p id="morpion-button3" onclick="morpion('#morpion-button3')"></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p id="morpion-button4" onclick="morpion('#morpion-button4')"></p>
+        </td>
+        <td>
+          <p id="morpion-button5" onclick="morpion('#morpion-button5')"></p>
+        </td>
+        <td>
+          <p id="morpion-button6" onclick="morpion('#morpion-button6')"></p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p id="morpion-button7" onclick="morpion('#morpion-button7')"></p>
+        </td>
+        <td>
+          <p id="morpion-button8" onclick="morpion('#morpion-button8')"></p>
+        </td>
+        <td>
+          <p id="morpion-button9" onclick="morpion('#morpion-button9')"></p>
+        </td>
+      </tr>
+    </table>
+    <button id="refresh" type="button" name="rejouer">Rejouer !</button>
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script
+		  src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"
+		  integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="
+		  crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="morpion.js"></script>
+  </body>
+</html>

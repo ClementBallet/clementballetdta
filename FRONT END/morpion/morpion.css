@@ -1,0 +1,31 @@
+*,html,body,h1 {
+  margin: 0 auto;
+  text-align: center;
+  font-family: trebuchet, helvetica, sans-serif;
+}
+
+h1,p,h5 {
+  padding: 10px;
+}
+
+fieldset {
+  width : 25%;
+  border-radius: 8px;
+}
+
+table {
+  border-collapse: collapse;
+  width : 250px;
+  height : 250px;
+}
+
+td {
+  border: 3px solid black;
+  width: 80px;
+  height: 80px;
+  font-size: 3em;
+}
+
+button {
+  margin-top: 5px;
+}
